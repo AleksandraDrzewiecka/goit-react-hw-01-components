@@ -1,0 +1,28 @@
+.transactionHistory {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.thead {
+    background-color: rgb(58, 135, 139);
+    color: white;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.tbodyItem {
+    color: grey;
+    text-transform: capitalize;
+    padding-top: 3px;
+    padding-bottom: 6px;
+}
+
+.tbody:nth-child(2n) {
+    background-color: rgb(210, 210, 226);
+}
