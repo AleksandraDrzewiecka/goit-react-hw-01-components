@@ -1,4 +1,6 @@
-import css from './FriendList.module.css';
+import css from './FriendListItem.module.css';
+import PropTypes from 'prop-types';
+
 export const FriendListItem = ({ friendItem }) => {
   return (
     <li className={css.item}>
@@ -13,3 +15,8 @@ export const FriendListItem = ({ friendItem }) => {
     </li>
   );
 };
+FriendListItem.propTypes = {
+  friendItem: PropTypes.bool.isRequired,
+};
+
+export default FriendListItem;

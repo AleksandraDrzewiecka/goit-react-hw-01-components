@@ -1,14 +1,14 @@
-import { Profile } from './Task1/Profile.jsx';
-import user from './Task1/user.json';
+import { Profile } from './Profile/Profile.jsx';
+import user from '../data/user.json';
 
-import { Statistics } from './Task2/Statistics.jsx';
-import data from './Task2/data.json';
+import { Statistics } from './Statistics/Statistics.jsx';
+import data from '../data/data.json';
 
-import { FriendList } from './Task3/FriendList.jsx'; 
-import friends from './Task3/friends.json'
+import { FriendList } from './FriendList/FriendList.jsx'; 
+import friends from '../data/friends.json'
 
-import { TransactionHistory } from './Task4/TransactionHistory.jsx';
-import transactions from './Task4/transactions.json';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory.jsx';
+import transactions from '../data/transactions.json';
 
 export const App = () => {
   return (
